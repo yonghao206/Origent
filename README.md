@@ -1,4 +1,21 @@
-Readme
+## Recognition Optimizing disease progression rates in Amyotrophic lateral sclerosis(ALS)
+
+Amyotrophic lateral sclerosis(ALS) is a disease that degenerate nerve cells in the brain and spinal cord, which control voluntary muscle movement.[1] As ALS develops, patients will lose their ability gradually to control voluntary muscle movement. The severity of the disease is evaluated by a modified version of ALS Functional Rating Scale(ALSFRS-R) containing a list of 12 assessments regarding motor function, including speech, salivation, swallowing, handwriting, cutting (with and without Gastrostomy), dressing and hygiene, turning in bed, walking, climbing stairs, dyspnea, orthopnea, and respiratory insufficiency. Each measure ranges from 0 to 4, with 4 being the highest capability and 0 being no capability of function.
+Predicting ALS progress of patients is hard due to the greatly heterogeneous performance for different patients. The goal of the project is to train machine models to predict disease progress of ALS patients based on the data collected in PRO-ACT database.[1]
+
+## Dataset Description
+
+The first dataset used for the project is originally from Pooled Resource Open-Access ALS Clinical Trials (PRO-ACT) database and then it was developed by Origent the sponsor company for this project. The PRO-ACT includes records of 10429 fully de-identified clinical patients with 74 features for each patient. The second dataset ALSFRS-R records diagnosis information over time after each patient’s first diagnosis. It includes 66407 samples with 37 features
+
+## Pipeline
+
+1. ***Data Preprocessing***
+2. ***Data Augmentation***
+3. ***Modeling***
+4. **Performance and Result**
+
+## Files Description
+
 Please put input and output folders into code folder
 
 Table of Files
